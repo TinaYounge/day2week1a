@@ -1,0 +1,82 @@
+#assignment1 {
+  color: #2c3e50;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#para1 {
+  color: #2ecc71;
+}
+.header {
+  color: #e67e22;
+  background-color: linen;
+  /* visibility: hidden;
+  display: none; */
+}
+body {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  box-sizing: border-box;
+}
+P {
+  font-style: italic;
+  font-family: "verdana";
+  font-size: 20px;
+}
+p::first-letter {
+  font-size: 200%;
+  color: #27ae60;
+}
+
+a:hover {
+  background-color: yellow;
+}
+#style {
+  background-color: red;
+}
+
+#style:focus {
+  background-color: pink;
+}
+a:active {
+  background-color: powderblue;
+}
+#assignment3 {
+  font-size: 16px;
+}
+li {
+  font-size: 0.8em;
+}
+#boxa {
+  border-radius: 20px;
+  width: 20vw;
+  height: 20vw;
+  background-color: royalblue;
+  margin-left: 20%;
+}
+.box {
+  border: 50px solid #e32636;
+  padding: 50px;
+  text-transform: uppercase;
+  width: 50%;
+}
+/* Write CSS to make box-sizing to be border-box that's applied to all 
+elements in the page. Discuss with your neighbor to understand the difference?
+Write CSS to make element with the class content to have
+box-sizing: content-box
+Border color: Green See
+Calculate the different width between Box 1 and 2.
+If we put Box 3 <div class="box">Box 3</div> inside box 1, and Box 4 
+inside Box 2. Are Box 3 and 4 have the same width? Discuss with your neighbor 
+before you put the code in. */
+.content {
+  box-sizing: content-box;
+  border-color: #1bbc9b;
+}
